@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rough</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1 class="text-center">COUNTER APP</h1>
+        <button class="hide" id="clear-btn" onclick="clearAll()">Clear All</button>
+        
+    <div class="grand-parent">
+        <div class="sub-child">
+            <h1 class="heads">positive</h1>
+            <div class="parent">
+                <h1 class="head-one">Click Counter</h1>
+                <h1 class="iteration-plus">0</h1>
+                <button onclick="add()">Click</button>
+            </div>
+        </div>
+        <div class="sub-child">
+            <h1 class="heads">Negative</h1>
+            <div class="parent">
+                <h1 class="head-one">Click Counter</h1>
+                <h1 class="iteration-minus">0</h1>
+                <button onclick="subtract()">Click</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <button class="hide " id="add-up-btn" onclick="aaUpTwoValues()">ADD ABOVE VALUES</button>
+
+    <div class="sum-output"></div>
+    <div class= "hide" id="error-para-div"></div>
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
